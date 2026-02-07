@@ -7,4 +7,3 @@ output "sns_topic_arn" {
   value       = aws_sns_topic.oficina_notificacoes.arn
   description = "O ARN completo do tópico SNS para o Kubernetes"
 }
-
